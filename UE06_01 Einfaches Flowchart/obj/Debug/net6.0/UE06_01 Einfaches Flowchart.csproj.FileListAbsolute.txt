@@ -1,0 +1,14 @@
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.exe
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.deps.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.runtimeconfig.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.AssemblyInfoInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.AssemblyInfo.cs
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.csproj.CoreCompileInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\refint\UE06_01 Einfaches Flowchart.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.genruntimeconfig.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\ref\UE06_01 Einfaches Flowchart.dll

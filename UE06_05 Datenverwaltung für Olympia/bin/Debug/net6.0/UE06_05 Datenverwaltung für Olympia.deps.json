@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UE06_05 Datenverwaltung für Olympia/1.0.0": {
+        "runtime": {
+          "UE06_05 Datenverwaltung für Olympia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UE06_05 Datenverwaltung für Olympia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

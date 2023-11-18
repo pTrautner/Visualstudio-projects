@@ -1,0 +1,42 @@
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\bin\Debug\net6.0\UE5_5.exe
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\bin\Debug\net6.0\UE5_5.deps.json
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\bin\Debug\net6.0\UE5_5.runtimeconfig.json
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\bin\Debug\net6.0\UE5_5.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\bin\Debug\net6.0\UE5_5.pdb
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\refint\UE5_5.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.pdb
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\UE5_5.genruntimeconfig.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_5\obj\Debug\net6.0\ref\UE5_5.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\bin\Debug\net6.0\UE5_5.exe
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\bin\Debug\net6.0\UE5_5.deps.json
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\bin\Debug\net6.0\UE5_5.runtimeconfig.json
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\bin\Debug\net6.0\UE5_5.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\bin\Debug\net6.0\UE5_5.pdb
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.AssemblyInfoInputs.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.AssemblyInfo.cs
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.csproj.CoreCompileInputs.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\refint\UE5_5.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.pdb
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\UE5_5.genruntimeconfig.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_5\obj\Debug\net6.0\ref\UE5_5.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\bin\Debug\net6.0\UE5_5.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\bin\Debug\net6.0\UE5_5.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\bin\Debug\net6.0\UE5_5.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\bin\Debug\net6.0\UE5_5.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\bin\Debug\net6.0\UE5_5.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\refint\UE5_5.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\UE5_5.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE5_5(ONLY FOR CHECKING DO NOT UPLOAD)\obj\Debug\net6.0\ref\UE5_5.dll

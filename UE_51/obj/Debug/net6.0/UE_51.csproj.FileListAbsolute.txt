@@ -1,0 +1,14 @@
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\bin\Debug\net6.0\UE_51.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\bin\Debug\net6.0\UE_51.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\bin\Debug\net6.0\UE_51.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\bin\Debug\net6.0\UE_51.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\bin\Debug\net6.0\UE_51.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\refint\UE_51.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\UE_51.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE_51\obj\Debug\net6.0\ref\UE_51.dll

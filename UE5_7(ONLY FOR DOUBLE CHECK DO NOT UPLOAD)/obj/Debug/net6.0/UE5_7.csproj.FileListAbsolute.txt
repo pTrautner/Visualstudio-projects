@@ -1,0 +1,28 @@
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\bin\Debug\net6.0\UE5_7.exe
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\bin\Debug\net6.0\UE5_7.deps.json
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\bin\Debug\net6.0\UE5_7.runtimeconfig.json
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\bin\Debug\net6.0\UE5_7.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\bin\Debug\net6.0\UE5_7.pdb
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\refint\UE5_7.dll
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.pdb
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\UE5_7.genruntimeconfig.cache
+C:\Users\Lukas\Desktop\UNI\Semester3\Informatik 2\UE5\UE5_7\obj\Debug\net6.0\ref\UE5_7.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\bin\Debug\net6.0\UE5_7.exe
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\bin\Debug\net6.0\UE5_7.deps.json
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\bin\Debug\net6.0\UE5_7.runtimeconfig.json
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\bin\Debug\net6.0\UE5_7.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\bin\Debug\net6.0\UE5_7.pdb
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.AssemblyInfoInputs.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.AssemblyInfo.cs
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.csproj.CoreCompileInputs.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\refint\UE5_7.dll
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.pdb
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\UE5_7.genruntimeconfig.cache
+C:\Users\JERNEJ\Documents\TU_Graz\I2-Ingenieurinformatik-2\Informatik_2\UE5_Snajder\UE5\UE5_7\obj\Debug\net6.0\ref\UE5_7.dll

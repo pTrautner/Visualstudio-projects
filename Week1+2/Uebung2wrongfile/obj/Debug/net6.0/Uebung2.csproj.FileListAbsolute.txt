@@ -1,0 +1,14 @@
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\bin\Debug\net6.0\Uebung2.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\bin\Debug\net6.0\Uebung2.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\bin\Debug\net6.0\Uebung2.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\bin\Debug\net6.0\Uebung2.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\bin\Debug\net6.0\Uebung2.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\refint\Uebung2.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\Uebung2.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Uebung2\obj\Debug\net6.0\ref\Uebung2.dll
