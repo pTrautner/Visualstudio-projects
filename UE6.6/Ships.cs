@@ -9,24 +9,27 @@ namespace UE66_ship
 {
     internal class Ship : IComparable<Ship>
     {
-        public string _name;
-        public int _baujahr;
-        public decimal _laenge;
+        //Constructor
         public Ship(string name, int baujahr, decimal laenge)
         {
-            this._name = name;
-            this._baujahr = baujahr;
-            this._laenge = laenge;
+            this.Name = name;
+            this.Baujahr = baujahr;
+            this.Laenge = laenge;
         }
+        //Getters and setters
         public string? Name { get; set; }
-        //public int Baujahr { get; set; }
-        public int GetBaujahr() { return _baujahr; }
-        public void SetBaujahr(int baujahr) { _baujahr=baujahr; }
+        public int Baujahr { get; set; }
         public decimal Laenge { get; set; }
+        //ToString
+        public override string ToString()
+        {
+            return $"Name: {Name}, Year built: {Baujahr}, Length: {Laenge}";
+        }
+        //Compareto method sorting age from low to high
         public int CompareTo(Ship other)
         {
 
-            int lengthComparison = this._laenge.CompareTo(other._laenge);
+            int lengthComparison = this.Laenge.CompareTo(other.Laenge);
             return lengthComparison;
         }
     }
