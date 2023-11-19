@@ -1,0 +1,14 @@
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\bin\Debug\net6.0\UE6.6.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\bin\Debug\net6.0\UE6.6.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\bin\Debug\net6.0\UE6.6.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\bin\Debug\net6.0\UE6.6.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\bin\Debug\net6.0\UE6.6.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\refint\UE6.6.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\UE6.6.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE6.6\obj\Debug\net6.0\ref\UE6.6.dll
