@@ -22,7 +22,7 @@ public class Student : IComparable<Student>
         this._matrikelnummer = Convert.ToDouble(stData[2]);
         this._punktezahl = Convert.ToDouble(stData[4]);
     }
-
+    //Calculated grade based on point range (can also be done with switch case)
     public int NotenBerechnung(double Punktezahl)
     {
         int note = 0;
@@ -49,9 +49,11 @@ public class Student : IComparable<Student>
         else { note  = 0; }
         return note;
     }
+    //Comparing student based on different criteria:
+    //When the compared students are equal in the current criteria, the next comparison is made
     public int CompareTo(Student other)
     {
-        int punktevergleich = other._punktezahl.CompareTo(this._punktezahl); //absteigend: falls this > other: -1
+        int punktevergleich = other._punktezahl.CompareTo(this._punktezahl); //absteigend: falls this > other: -1 (hohe punktezahl am anfang im array)
         if (punktevergleich != 0)
         {
             return punktevergleich;
