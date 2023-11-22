@@ -1,0 +1,14 @@
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\bin\Debug\net6.0\UE04_03.exe
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\bin\Debug\net6.0\UE04_03.deps.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\bin\Debug\net6.0\UE04_03.runtimeconfig.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\bin\Debug\net6.0\UE04_03.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\bin\Debug\net6.0\UE04_03.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.AssemblyInfoInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.AssemblyInfo.cs
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.csproj.CoreCompileInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\refint\UE04_03.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\UE04_03.genruntimeconfig.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_03\obj\Debug\net6.0\ref\UE04_03.dll

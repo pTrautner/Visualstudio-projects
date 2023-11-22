@@ -1,0 +1,28 @@
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\bin\Debug\net6.0\UE04_01.exe
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\bin\Debug\net6.0\UE04_01.deps.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\bin\Debug\net6.0\UE04_01.runtimeconfig.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\bin\Debug\net6.0\UE04_01.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\bin\Debug\net6.0\UE04_01.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.AssemblyInfoInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.AssemblyInfo.cs
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.csproj.CoreCompileInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\refint\UE04_01.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\UE04_01.genruntimeconfig.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE04_01\obj\Debug\net6.0\ref\UE04_01.dll
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\bin\Debug\net6.0\UE04_01.exe
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\bin\Debug\net6.0\UE04_01.deps.json
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\bin\Debug\net6.0\UE04_01.runtimeconfig.json
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\bin\Debug\net6.0\UE04_01.dll
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\bin\Debug\net6.0\UE04_01.pdb
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.AssemblyInfo.cs
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.dll
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\refint\UE04_01.dll
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.pdb
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\UE04_01.genruntimeconfig.cache
+C:\Users\Paul Trautner\Downloads\UE04_01\UE04_01\obj\Debug\net6.0\ref\UE04_01.dll

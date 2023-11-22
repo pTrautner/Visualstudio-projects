@@ -12,3 +12,17 @@ C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\D
 C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.pdb
 C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.genruntimeconfig.cache
 C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\ref\UE06_01 Einfaches Flowchart.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\bin\Debug\net6.0\UE06_01 Einfaches Flowchart.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\refint\UE06_01 Einfaches Flowchart.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\UE06_01 Einfaches Flowchart.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE06_01 Einfaches Flowchart\obj\Debug\net6.0\ref\UE06_01 Einfaches Flowchart.dll

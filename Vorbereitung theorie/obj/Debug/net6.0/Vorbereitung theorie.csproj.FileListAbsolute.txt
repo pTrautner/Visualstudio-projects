@@ -1,0 +1,14 @@
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\bin\Debug\net6.0\Vorbereitung theorie.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\bin\Debug\net6.0\Vorbereitung theorie.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\bin\Debug\net6.0\Vorbereitung theorie.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\bin\Debug\net6.0\Vorbereitung theorie.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\bin\Debug\net6.0\Vorbereitung theorie.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\refint\Vorbereitung theorie.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\Vorbereitung theorie.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Vorbereitung theorie\obj\Debug\net6.0\ref\Vorbereitung theorie.dll
