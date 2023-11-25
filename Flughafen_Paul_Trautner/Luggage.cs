@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace PTluggage;
 
-class Luggage
+public class Luggage
 {
     //Constructor
     public Luggage(string name, string flightnumber, double weight)
@@ -20,10 +21,17 @@ class Luggage
     public double Weight { get; set; }
 }
 
-class Handluggage : Luggage
+public class HandLuggage : Luggage
 {
-    Handluggage(string name, string flightnumber, double weight) : base(name, flightnumber, weight)
+    public HandLuggage(string name, string flightnumber, double weight) : base(name, flightnumber, weight)
     {
         this.Weight = 8;
+    }
+}
+public class CheckInLuggage : Luggage
+{
+    public CheckInLuggage(string name, string flightnumber, double weight) : base(name, flightnumber, weight)
+    {
+        //identical to Luggage class
     }
 }

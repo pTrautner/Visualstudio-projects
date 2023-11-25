@@ -1,0 +1,14 @@
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\bin\Debug\net6.0\Flughafen_Paul_Trautner.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\bin\Debug\net6.0\Flughafen_Paul_Trautner.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\bin\Debug\net6.0\Flughafen_Paul_Trautner.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\bin\Debug\net6.0\Flughafen_Paul_Trautner.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\bin\Debug\net6.0\Flughafen_Paul_Trautner.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\refint\Flughafen_Paul_Trautner.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\Flughafen_Paul_Trautner.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\Flughafen_Paul_Trautner\obj\Debug\net6.0\ref\Flughafen_Paul_Trautner.dll
