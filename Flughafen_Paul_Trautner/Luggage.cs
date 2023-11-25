@@ -24,6 +24,6 @@ class Handluggage : Luggage
 {
     Handluggage(string name, string flightnumber, double weight) : base(name, flightnumber, weight)
     {
-        this.Weight = base.Weight + 8;
+        this.Weight = 8;
     }
 }
