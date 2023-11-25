@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE04_05 Erweitertes bestellsystem - Enum - ToString\\UE4.5.csproj": {}
+    "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\Flughafen_Paul_Trautner\\Flughafen_Paul_Trautner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE04_05 Erweitertes bestellsystem - Enum - ToString\\UE4.5.csproj": {
+    "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\Flughafen_Paul_Trautner\\Flughafen_Paul_Trautner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE04_05 Erweitertes bestellsystem - Enum - ToString\\UE4.5.csproj",
-        "projectName": "UE4.5",
-        "projectPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE04_05 Erweitertes bestellsystem - Enum - ToString\\UE4.5.csproj",
+        "projectUniqueName": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\Flughafen_Paul_Trautner\\Flughafen_Paul_Trautner.csproj",
+        "projectName": "Flughafen_Paul_Trautner",
+        "projectPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\Flughafen_Paul_Trautner\\Flughafen_Paul_Trautner.csproj",
         "packagesPath": "C:\\Users\\Paul Trautner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE04_05 Erweitertes bestellsystem - Enum - ToString\\obj\\",
+        "outputPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\Flughafen_Paul_Trautner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Paul Trautner\\AppData\\Roaming\\NuGet\\NuGet.Config",

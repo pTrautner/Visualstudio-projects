@@ -4,6 +4,7 @@ public class Program
 {
     static void Main(string[] args)
     {
+        //konto erstellen
         Bankkonto b1 = new Bankkonto("Paul", 123, 100.2M, 1234);
         while (true)
         {
