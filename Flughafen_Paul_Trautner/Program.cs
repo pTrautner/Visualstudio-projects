@@ -15,5 +15,9 @@ class Program
     {
         //HandLuggage l1 = new HandLuggage("ddsss","23", 1);
         //Console.Write(l1.Name);
+        Crew c1 = new Crew(12, "Paul",0, "pilot", true);
+        Crew c2 = new Crew(12, "Paul", 0, "flightattendant", true);
+        c1.GetInformation();
+        c2.GetInformation();
     }
 }
