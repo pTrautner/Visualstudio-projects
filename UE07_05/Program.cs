@@ -15,11 +15,7 @@ public class Program
                 Console.WriteLine("enter pin");
                 int enteredpin = Convert.ToInt32(Console.ReadLine());
                 bool pinMatches = b1.PinAndKontoCheck(enteredpin, enteredKontoNumber);
-                if (pinMatches == false)
-                {
-                    continue;
-                }
-                else if (pinMatches == true)
+                if (pinMatches == true)
                 {
                     bool userloggedin = true;
                     while (userloggedin == true)
