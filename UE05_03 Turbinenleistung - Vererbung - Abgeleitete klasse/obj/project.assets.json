@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE5.3\\UE5.3.csproj",
+      "projectUniqueName": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE05_03 Turbinenleistung - Vererbung - Abgeleitete klasse\\UE5.3.csproj",
       "projectName": "UE5.3",
-      "projectPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE5.3\\UE5.3.csproj",
+      "projectPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE05_03 Turbinenleistung - Vererbung - Abgeleitete klasse\\UE5.3.csproj",
       "packagesPath": "C:\\Users\\Paul Trautner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE5.3\\obj\\",
+      "outputPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE05_03 Turbinenleistung - Vererbung - Abgeleitete klasse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Paul Trautner\\AppData\\Roaming\\NuGet\\NuGet.Config",
