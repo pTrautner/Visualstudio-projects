@@ -20,8 +20,8 @@ namespace PTperson
     }
     class Passenger : Person
     {
-        public Passenger(int age, string name, Ticket ticket, Luggage luggage) : base(age, name) 
-        { 
+        public Passenger(int age, string name, Ticket ticket, Luggage luggage) : base(age, name)
+        {
             this.Ticket = ticket;
             this.Luggage = luggage;
         }
@@ -36,10 +36,17 @@ namespace PTperson
             this.Assigned = false;
             switch (role.ToLower())
             {
-                case "pilot": this.Skill = 1; break;
-                case "fo": this.Skill = 2; break;
-                case "flightattendant": this.Skill = 3; break;
-                default: this.Skill = 0; break;
+                case "pilot": 
+                    this.Skill = 1; 
+                    break;
+                case "fo": 
+                    this.Skill = 2; 
+                    break;
+                case "flightattendant": 
+                    this.Skill = 3; 
+                    break;
+                default: this.Skill = 0; 
+                    break;
             }
 
         }
@@ -49,7 +56,7 @@ namespace PTperson
 
         public void GetInformation()
         {
-            Console.WriteLine($"{Role + ":",-20 } {Name} age {Age}");
+            Console.WriteLine($"{Role + ":",-20} {Name} age {Age}");
         }
     }
 }
