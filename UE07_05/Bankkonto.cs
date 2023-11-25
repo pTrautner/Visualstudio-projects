@@ -2,6 +2,7 @@
 
 internal class Bankkonto
 {
+    //constructor
     public Bankkonto(string kontoinhaber, int kontonummer, decimal kontostand, int pin)
     {
         this.Kontoinhaber = kontoinhaber;
@@ -9,10 +10,12 @@ internal class Bankkonto
         this.Kontostand = kontostand;
         this.Pin = pin;
     }
+    //getters und setters
     public string Kontoinhaber { get; set; }
     public int Kontonummer { get; set; }
     public decimal Kontostand { get; set; }
     int Pin { get; set; }
+    //Methode um login zu checken, returns bool
     public bool PinAndKontoCheck(int enteredPin, int enteredkontonummer)
     {
         while (true)
@@ -33,6 +36,7 @@ internal class Bankkonto
         }
 
     }
+    //methode um einzahlungen durch zu fuehren ,checkt fuer punkt bei komma stellen
     public void Deposit()
     {
         while (true)
@@ -40,10 +44,20 @@ internal class Bankkonto
             try
             {
                 Console.WriteLine($"enter deposit amount");
-                decimal depositamount = Convert.ToDecimal(Console.ReadLine());
+                string depositamountstring = Console.ReadLine();
+                if ( depositamountstring.Contains('.') )
+                {
+                    Console.WriteLine("Your input contained dots [.] Please use comma to divide digits after the decimal!");
+                    continue;
+                }
+                decimal depositamount = Convert.ToDecimal(depositamountstring);
                 Kontostand += depositamount;
                 Console.WriteLine($"you have deposited {depositamount} euros");
                 break;
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Format Error, Please only input decimal numbers!");
             }
             catch (Exception ex) { 
                 Console.WriteLine(ex.Message);
@@ -51,6 +65,7 @@ internal class Bankkonto
         }
 
     }
+    //methode zum abheben, vergleicht eingabe auch mit kontostand
     public void Withdraw()
     {
         while (true)
@@ -58,8 +73,14 @@ internal class Bankkonto
             try
             {
                 Console.WriteLine($"enter withdraw amount");
-                decimal withdrawamount = Convert.ToDecimal(Console.ReadLine());
-                if(withdrawamount > Kontostand)
+                string withdrawamountstring = Console.ReadLine();
+                if (withdrawamountstring.Contains('.'))
+                {
+                    Console.WriteLine("Your input contained dots [.] Please use comma to divide digits after the decimal!");
+                    continue;
+                }
+                decimal withdrawamount = Convert.ToDecimal(withdrawamountstring);
+                if (withdrawamount > Kontostand)
                 {
                     Console.WriteLine("Insufficient Credit!");
                     break;

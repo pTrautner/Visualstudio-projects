@@ -14,8 +14,7 @@ public class Program
                 int enteredKontoNumber = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("enter pin");
                 int enteredpin = Convert.ToInt32(Console.ReadLine());
-                bool userloggedin;
-                userloggedin = b1.PinAndKontoCheck(enteredpin, enteredKontoNumber);
+                bool userloggedin = b1.PinAndKontoCheck(enteredpin, enteredKontoNumber);
                 while (userloggedin == true)
                 {
                     Console.WriteLine($"Hi {b1.Kontoinhaber}! Current Balance: {b1.Kontostand}");
