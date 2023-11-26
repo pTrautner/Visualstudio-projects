@@ -1,0 +1,28 @@
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.exe
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.deps.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.runtimeconfig.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.AssemblyInfoInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.AssemblyInfo.cs
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.csproj.CoreCompileInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\refint\UE07_02 Division.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.genruntimeconfig.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_02 Division\obj\Debug\net6.0\ref\UE07_02 Division.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.exe
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.deps.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.runtimeconfig.json
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\bin\Debug\net6.0\UE07_02 Division.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.AssemblyInfoInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.AssemblyInfo.cs
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.csproj.CoreCompileInputs.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\refint\UE07_02 Division.dll
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.pdb
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\UE07_02 Division.genruntimeconfig.cache
+C:\Users\Paul Trautner\Desktop\Ingenieurinformatik 2\Visualstudio-projects\UE07_02 Division\UE07_02 Division\obj\Debug\net6.0\ref\UE07_02 Division.dll

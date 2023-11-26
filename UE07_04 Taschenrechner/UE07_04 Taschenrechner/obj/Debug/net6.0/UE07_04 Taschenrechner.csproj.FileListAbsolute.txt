@@ -1,0 +1,14 @@
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\bin\Debug\net6.0\UE07_04 Taschenrechner.exe
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\bin\Debug\net6.0\UE07_04 Taschenrechner.deps.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\bin\Debug\net6.0\UE07_04 Taschenrechner.runtimeconfig.json
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\bin\Debug\net6.0\UE07_04 Taschenrechner.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\bin\Debug\net6.0\UE07_04 Taschenrechner.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.AssemblyInfoInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.AssemblyInfo.cs
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.csproj.CoreCompileInputs.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\refint\UE07_04 Taschenrechner.dll
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.pdb
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\UE07_04 Taschenrechner.genruntimeconfig.cache
+C:\Luka_Pinturic\TUG\3. Semestar\Informatik II\UE07_04 Taschenrechner\obj\Debug\net6.0\ref\UE07_04 Taschenrechner.dll
