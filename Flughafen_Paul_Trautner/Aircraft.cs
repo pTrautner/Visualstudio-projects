@@ -17,7 +17,7 @@ abstract class Aircraft
         this.FuelCapacity = fuelCapacity;
         this.MaxSpeed = maxSpeed;
 
-            switch (type.ToLower())
+        switch (type.ToLower())
         {
             case "jumbojet":
                 this.FuelConsumption = 16000;
@@ -42,37 +42,54 @@ abstract class Aircraft
     public double AircraftWeight { get; set; }
     public bool Assigned { get; set; }
     public Crew? Crew { get; set; }
-    public int FuelCapacity { get; set;}
+    public int FuelCapacity { get; set; }
     public int FuelConsumption { get; set; }
     public int LoadedWeight { get; set; }
-    public int MaxSpeed { get; set;}
-    public int MaxWeight { get; set;}
-    public string Model { get; set;}
-    public string Type { get; set;}
-    public int MaxPassengers { get; set;}
+    public int MaxSpeed { get; set; }
+    public int MaxWeight { get; set; }
+    public string Model { get; set; }
+    public string Type { get; set; }
+    public int MaxPassengers { get; set; }
 
-    abstract public int CalcFuelConsumption();
-    
-    virtual public double UpdateWeight(double addedWeight)
+    public abstract int CalcFuelConsumption();
+
+    public virtual void UpdateWeight(double addedWeight)
     {
-        //                                              !THIS IS NOT FINISHED!
+        //                                              !THIS IS NOT FINISHED! maybe?
         //double updatedWeight;
-        //updatedWeight = 1 + addedWeight;
+        //updatedWeight = addedWeight + AircraftWeight;
         //return updatedWeight;
     }
 }
-    class CargoAircraft : Aircraft
+class CargoAircraft : Aircraft
 {
+    int flightTimeInHours; //PLACEHOLDER
     public CargoAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentWeight)
         : base(aircraftWeight, assigned, crew, fuelCapacity, fuelConsumption, loadedWeight, maxSpeed, maxWeight, model, type)
     {
-        this.CurrentWeight = AircraftWeight + LoadedWeight;
+        this.CurrentWeight = base.AircraftWeight + this.LoadedWeight;
     }
-    public double CurrentWeight { get; set;}
-
-    public override double UpdateWeight(double addedWeight)
+    public double CurrentWeight { get; set; }
+    public override int CalcFuelConsumption()
     {
-        return base.UpdateWeight(addedWeight);
+        return FuelConsumption - (200 * flightTimeInHours); //Maybe this gets declared or some shit later
     }
+    public override void UpdateWeight(double addedWeight)
+    {
+        //return base.UpdateWeight(addedWeight);
+        CurrentWeight += addedWeight;
+    }
+}
+class PassengerAircraft : Aircraft
+{
+    double Currenweight;
+    int MaxPassengers;
+    public PassengerAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentweight, int maxpassengers)
+        : base(aircraftWeight, assigned, crew, fuelCapacity, fuelConsumption, loadedWeight, maxSpeed, maxWeight, model, type)
+    {
+        this.Currenweight = currentweight;
+        this.MaxPassengers = maxpassengers;
+    }
+
 }
 

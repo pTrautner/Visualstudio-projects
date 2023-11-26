@@ -1,6 +1,6 @@
 ﻿namespace UE07_02_Division
 {
-    internal class Program
+    internal class Program //asdkjdsahd
     {
         static void Main(string[] args)
         {
