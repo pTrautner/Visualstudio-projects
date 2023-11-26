@@ -1,4 +1,5 @@
-﻿using PTperson;
+﻿using PTluggage;
+using PTperson;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,7 +11,8 @@ namespace PTaircraft;
 
 abstract class Aircraft
 {
-    public Aircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, double loadedWeight, int maxSpeed, double maxWeight, string model, string type)
+    public Aircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, 
+        double loadedWeight, int maxSpeed, double maxWeight, string model, string type)
     {
         this.Type = type;
         this.Model = model;
@@ -58,16 +60,17 @@ abstract class Aircraft
         //                                              !THIS IS NOT FINISHED! maybe?
         //double updatedWeight;
         //updatedWeight = addedWeight + AircraftWeight;
-        //return updatedWeight;
+        //return updatedWeight;                             WHat the fuck goes here
     }
 }
 class CargoAircraft : Aircraft
 {
     int flightTimeInHours; //PLACEHOLDER
-    public CargoAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentWeight)
+    public CargoAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, 
+        double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentWeight)
         : base(aircraftWeight, assigned, crew, fuelCapacity, fuelConsumption, loadedWeight, maxSpeed, maxWeight, model, type)
     {
-        this.CurrentWeight = base.AircraftWeight + this.LoadedWeight;
+        this.CurrentWeight = base.AircraftWeight + this.LoadedWeight; //not sure if base. and this. shit is correct
     }
     public double CurrentWeight { get; set; }
     public override int CalcFuelConsumption()
@@ -77,18 +80,61 @@ class CargoAircraft : Aircraft
     public override void UpdateWeight(double addedWeight)
     {
         //return base.UpdateWeight(addedWeight);
-        CurrentWeight += addedWeight;
+        //urrentWeight += addedWeight;
+        base.UpdateWeight(addedWeight);  //not sure
     }
 }
-class PassengerAircraft : Aircraft
+class PassengerAircraft : Aircraft 
 {
-    double Currenweight;
-    int MaxPassengers;
-    public PassengerAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentweight, int maxpassengers)
+    public PassengerAircraft(double aircraftWeight, bool assigned, Crew crew, int fuelCapacity, int fuelConsumption, 
+        double loadedWeight, int maxSpeed, double maxWeight, string model, string type, double currentweight, int maxpassengers)
         : base(aircraftWeight, assigned, crew, fuelCapacity, fuelConsumption, loadedWeight, maxSpeed, maxWeight, model, type)
     {
-        this.Currenweight = currentweight;
-        this.MaxPassengers = maxpassengers;
+        this.Type = type;
+        this.CurrentWeight = base.AircraftWeight + this.LoadedWeight; //not sure if base. and this. shit is correct
+        this.MaxPassengers = base.MaxPassengers; //not sure if this works
+    }
+    public double CurrentWeight { get; set; }
+    public int Maxpassengers { get; set; }
+    //METHODS
+    public override void UpdateWeight(double addedWeight)
+    {
+        base.UpdateWeight(addedWeight); //not sure
+    }
+    public void AddLuggage(List<Luggage> listname)  //IN PROGRESS
+    {
+        foreach (Luggage luggage in listname)
+        {
+            if (this.CurrentWeight < this.MaxWeight)
+            {
+                this.CurrentWeight += luggage.Weight;
+            }
+            else return;
+        }
+    }
+    public void AssignCrewToAircraft(List<Crew> listname)
+    {
+        foreach (Crew crew in listname)
+        {
+            crew.Assigned = true;
+        }
+    }
+    public void WalkAround()
+    {
+        Console.WriteLine($"Walkaround on Aircraft {this.Model} is complete");
+    }
+    public int CompareTo(PassengerAircraft other)
+    {
+        int passengercomparison = this.MaxPassengers.CompareTo(other.MaxPassengers); //low to high <= "sortiere geringere max zahl nach vorne"
+        return passengercomparison;
+    }
+    public override int CalcFuelConsumption()
+    {
+        return FuelConsumption - (flightTimeInHours * 0.97 * Maxpassengers); //Maybe flighttime gets declared or some shit later // IN PROGRESS
+    }
+    public int SetFuelCapacity(int fuelneeded)
+    {
+        this.FuelCapacity = fuelneeded; //NOT SURE IF CORRECT
     }
 
 }
