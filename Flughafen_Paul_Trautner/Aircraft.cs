@@ -132,7 +132,7 @@ class PassengerAircraft : Aircraft
     {
         return FuelConsumption - (flightTimeInHours * 0.97 * Maxpassengers); //Maybe flighttime gets declared or some shit later // IN PROGRESS
     }
-    public int SetFuelCapacity(int fuelneeded)
+    public void SetFuelCapacity(int fuelneeded)
     {
         this.FuelCapacity = fuelneeded; //NOT SURE IF CORRECT
     }
