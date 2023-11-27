@@ -11,6 +11,7 @@ namespace Flughafen_Paul_Trautner
 {
     internal class Flight
     {
+        actualDepartureTime
     }
 }
 actualDepartureTime wirkliche TakeOff Zeit - (int)
