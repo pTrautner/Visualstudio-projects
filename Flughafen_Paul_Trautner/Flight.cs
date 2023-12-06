@@ -46,7 +46,7 @@ namespace Flughafen_Paul_Trautner
         public string FlightNumber { get; set; }
         public List<Passenger> Passengers { get; set; }
         public int SoldTickets { get; set; }
-        public FlightStatusEnum FlightStatus { get; set; }
+        public FlightStatus FlightStatus { get; set; }
         public bool WalkAround { get; set; }
         public int WalkAroundTime { get; set; }
         public List<Crew> AssignCrewToFlight(List<Crew> allCrew)
@@ -106,6 +106,123 @@ namespace Flughafen_Paul_Trautner
             {
                 Console.WriteLine("Assignment not possible due to lack of crew!");
             }
+            if (assignmentIsPossible == true)
+            {
+                foreach (Crew crewMember in allCrew)
+                {
+                    if (crewMember.Assigned == false)
+                    {
+                        switch (crewMember.Role)
+                        {
+                            case "pilot":
+                                if (pilotNeeded > 0)
+                                {
+                                    crew.Add(crewMember);
+                                    crewMember.Assigned = true;
+                                    pilotNeeded--;
+                                }
+                                break;
+                            case "fO":
+                                if (fONeeded > 0)
+                                {
+                                    crew.Add(crewMember);
+                                    crewMember.Assigned = true;
+                                    pilotNeeded--;
+                                }
+                                break;
+                            case "flightattendant":
+                                if (pilotNeeded > 0)
+                                {
+                                    crew.Add(crewMember);
+                                    crewMember.Assigned = true;
+                                    pilotNeeded--;
+                                }
+                                break;
+                            default:
+                                break;
+
+                        }
+                    }
+                }
+                Crew = crew;
+            }
+            return Crew;
+        }
+        public void BoardAllPassengers(List<Passenger> passengers)
+        {
+            BoardPassengers = true;
+            if (Aircraft.Type == "jumbojet")
+            {
+                BoardingTime = (int)( (passengers.Count * 0.1 + 2 ) / 2);
+                return;
+            }
+            BoardingTime = (int)(passengers.Count * 0.1 + 2);
+        }
+        public void BoardLuggage(List<Luggage> luggages)
+        {
+            Aircraft.AddLuggage(luggages);
+            AddLuggage = true;
+        }
+        private static double DegreesToRadians(double degrees)
+        {
+            return degrees * Math.PI / 180.0;
+        }
+
+        public double CalcDistance(double latitude, double longitude)
+        {
+            int r = 6371;
+
+            double lat1 = DegreesToRadians(latitude);
+            double long1 = DegreesToRadians(longitude);
+            double lat2 = DegreesToRadians(DestinationLat);
+            double long2 = DegreesToRadians(DestinationLong);
+
+            double dlat = lat2 - lat1;
+            double dlong = long2 - long1;
+
+            double a = Math.Sin(dlat / 2) * Math.Sin(dlat / 2) +
+                   Math.Cos(lat1) * Math.Cos(lat2) *
+                   Math.Sin(dlong / 2) * Math.Sin(dlong / 2);
+
+            double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+
+            return r * c;
+        }
+        public PassengerAircraft CheckAvailableAircraft(List<PassengerAircraft> aircraftList)
+        {
+            aircraftList.Sort((a,b) => a.CompareTo(b)); //Sorts max passenger from low to high
+            for (int i = 0; i < aircraftList.Count; i++) //starting with lowest capacity:
+            {
+                if (SoldTickets <= aircraftList[i].MaxPassengers) //do nothing until hitting aircraft with more or equal to needed capacity
+                {
+                    return aircraftList[i]; //return aircraft in current index
+                }
+            }
+            return aircraftList.Last(); //finnaly return aircraft with largest cap, regardless of sufficient space
+        }
+        public void CheckBriefing()//////////////
+        {
+            if (BriefingTime <= 25)
+            {
+                FlightStatus = FlightStatus.Preparing;
+            }
+        }
+        public void CheckWalkAround() ///////////////
+        {
+            if (WalkAroundTime <= 25)
+            {
+                FlightStatus = FlightStatus.Preparing;
+            }
+        }
+        public int CompareTo(Flight other) //returns 1 if other time is larger
+        {
+            return other.DepartureTime.CompareTo(DepartureTime);
+        }
+        public void FlightBriefing(double latitude, double longitude)
+        {
+            double distance = CalcDistance(latitude, longitude);
+            Aircraft.SetFuelCapacity(distance);
+            CheckBriefing();
 
         }
     }
