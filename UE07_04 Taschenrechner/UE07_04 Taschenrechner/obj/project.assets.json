@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lukap\\.nuget\\packages\\": {}
+    "C:\\Users\\Paul Trautner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Luka_Pinturic\\TUG\\3. Semestar\\Informatik II\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner.csproj",
+      "projectUniqueName": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner.csproj",
       "projectName": "UE07_04 Taschenrechner",
-      "projectPath": "C:\\Luka_Pinturic\\TUG\\3. Semestar\\Informatik II\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner.csproj",
-      "packagesPath": "C:\\Users\\lukap\\.nuget\\packages\\",
-      "outputPath": "C:\\Luka_Pinturic\\TUG\\3. Semestar\\Informatik II\\UE07_04 Taschenrechner\\obj\\",
+      "projectPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner.csproj",
+      "packagesPath": "C:\\Users\\Paul Trautner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Paul Trautner\\Desktop\\Ingenieurinformatik 2\\Visualstudio-projects\\UE07_04 Taschenrechner\\UE07_04 Taschenrechner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lukap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Paul Trautner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

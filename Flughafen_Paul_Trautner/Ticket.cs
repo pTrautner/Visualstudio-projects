@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PTtricket;
 
-internal class Ticket
+public class Ticket
 {
     //constructor
     public Ticket(string flightNumber, string seat, string ticketClass)
@@ -14,7 +14,7 @@ internal class Ticket
         this.FlightNumber = flightNumber;
         this.Seat = seat;
         this.TicketClass = ticketClass;
-        }
+    }
     //getter and setters
     public string FlightNumber { get; set;}
     public string Seat { get; set;}

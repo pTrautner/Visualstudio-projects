@@ -1,6 +1,7 @@
 ﻿using PTaircraft;
 using PTluggage;
 using PTperson;
+using PTflightstatus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,29 +10,104 @@ using System.Threading.Tasks;
 
 namespace Flughafen_Paul_Trautner
 {
-    internal class Flight
+    public class Flight
     {
-        actualDepartureTime
-    }
-}
-actualDepartureTime wirkliche TakeOff Zeit - (int)
-addLuggage Variable, die angibt, ob das Gepäck schon fertig geladen ist - (bool)
-aircraft Flugzeug, welches dem Flug zugeordnet wird vom Typ PassengerAircraft
-boardingTime benötigte Zeit für das Boarden der Passagiere - (int)
-boardPassengers Variable, die angibt, ob die Passagiere schon fertig geboardet sind - (bool)
-briefing Variable, die angibt, ob die Crew schon den Flug besprochen hat - (bool)
-briefingTime benötigte Zeit für das Briefen der Crew - (int)
-clearance Variable, die angibt, ob das Flugzeug abheben darf - (bool)
-crew List vom Typ „Crew“, die dem Flug zugeteilt worden sind
-currentTime aktueller Zeitpunkt - (int)
-departureTime geplante TakeOff Zeit des Fluges als - (int)
-destination Zielflughafen - (string)
-destinationLat Latitude des Zielflughafens - (double)
-destinationLong Longitude des Zielflughafens - (double)
-flightNumber Flugnummer - (string)
-passengers zugehörige Passagiere als Liste vom Typ Passager
-soldTickets Anzahl der verkauften Tickets des Flugzugs - (int)
-status Flugstatus als Enum vom Typ FlightStatus
-walkAround Variable, die angibt, ob der Walkaround schon durchgeführt worden ist - (bool)
-walkAroundTime benötigte Zeit für den walkAround (abhängig vom Flugzeugtyp) -(int)
+        public Flight(string flightNumber, int departureTime, int soldTickets, string destination, double destinationLat, double destinationLong)
+        {
+            DepartureTime = departureTime;
+            Destination = destination;
+            DestinationLat = destinationLat;
+            DestinationLong = destinationLong;
+            FlightNumber = flightNumber;
+            SoldTickets = soldTickets;
 
+            Briefing = false;
+            WalkAround = false;
+            Clearance = false;
+            BoardPassengers = false;
+            AddLuggage = false;
+
+            Passengers = new List<Passenger>();
+        }
+        public int ActualDepartureTime { get; set; }
+        public bool AddLuggage { get; set; }
+        public PassengerAircraft Aircraft { get; set; }
+        public int BoardingTime { get; set; }
+        public bool BoardPassengers { get; set; }
+        public bool Briefing { get; set; }
+        public int BriefingTime { get; set; }
+        public bool Clearance { get; set; }
+        public List<Crew> Crew { get; set; }
+        public int CurrentTime { get; set; }
+        public int DepartureTime { get; set; }
+        public string Destination { get; set; }
+        public double DestinationLat { get; set; }
+        public double DestinationLong { get; set; }
+        public string FlightNumber { get; set; }
+        public List<Passenger> Passengers { get; set; }
+        public int SoldTickets { get; set; }
+        public FlightStatusEnum FlightStatus { get; set; }
+        public bool WalkAround { get; set; }
+        public int WalkAroundTime { get; set; }
+        public List<Crew> AssignCrewToFlight(List<Crew> allCrew)
+        {
+            int pilotNeeded;
+            int fONeeded;
+            int flightAttendantsNeeded;
+            int pilot = 0;
+            int fO = 0;
+            int flightAttendants = 0;
+            bool assignmentIsPossible = false;
+            List<Crew> crew = new List<Crew>();
+            string type = Aircraft.Type;
+            switch(type)
+            {
+                case "jumbojet":
+                    pilotNeeded = 2;
+                    fONeeded = 1;
+                    flightAttendantsNeeded = 9;
+                    break;
+                case "jet":
+                    pilotNeeded = 1;
+                    fONeeded = 1;
+                    flightAttendantsNeeded = 5;
+                    break;
+                case "propeller":
+                    pilotNeeded = 1;
+                    fONeeded = 1;
+                    flightAttendantsNeeded = 2;
+                    break;
+                default:
+                    pilotNeeded = 0;
+                    fONeeded = 0;
+                    flightAttendantsNeeded = 0;
+                    break;
+            }
+            foreach(Crew crewMember in allCrew)
+            {
+                if (crewMember.Skill == 1)
+                {
+                    pilot++;
+                }
+                else if (crewMember.Skill == 2)
+                {
+                    fO++;
+                }
+                else if (crewMember.Skill == 3)
+                {
+                    flightAttendants++;
+                }
+            }
+            if (pilot >= pilotNeeded && fO >= fONeeded && flightAttendants >= flightAttendantsNeeded)
+            {
+                assignmentIsPossible = true;
+            }
+            else
+            {
+                Console.WriteLine("Assignment not possible due to lack of crew!");
+            }
+
+        }
+    }
+    
+}

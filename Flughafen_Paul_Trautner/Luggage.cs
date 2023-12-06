@@ -9,7 +9,6 @@ namespace PTluggage;
 
 public class Luggage
 {
-    //Constructor
     public Luggage(string name, string flightnumber, double weight)
     {
         this.Name = name;
@@ -32,6 +31,5 @@ public class CheckInLuggage : Luggage
 {
     public CheckInLuggage(string name, string flightnumber, double weight) : base(name, flightnumber, weight)
     {
-        //identical to Luggage class
     }
 }

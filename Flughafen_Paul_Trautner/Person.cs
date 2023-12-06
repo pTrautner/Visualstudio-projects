@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PTperson
 {
-    abstract class Person
+    public abstract class Person
     {
         public Person(int age, string name)
         {
@@ -18,7 +18,7 @@ namespace PTperson
         public int Age { get; set; }
         public string Name { get; set; }
     }
-    class Passenger : Person
+    public class Passenger : Person
     {
         public Passenger(int age, string name, Ticket ticket, Luggage luggage) : base(age, name)
         {
@@ -28,9 +28,9 @@ namespace PTperson
         public Ticket Ticket { get; set; }
         public Luggage Luggage { get; set; }
     }
-    class Crew : Person
+    public class Crew : Person
     {
-        public Crew(int age, string name, int skill, string role, bool assigned) : base(age, name)
+        public Crew(int age, string name, int skill, string role, bool assigned) : base(age, name) //maybe use if instead of switch
         {
             this.Role = role;
             this.Assigned = false;
@@ -54,9 +54,9 @@ namespace PTperson
         public string Role { get; set; }
         public bool Assigned { get; set; }
 
-        public void GetInformation()
+        public string GetInformation()
         {
-            Console.WriteLine($"{Role + ":",-20} {Name} age {Age}");
+            return "\t" + Role.PadLeft(15) + ":" + Name.PadLeft(15) + " " + "age" + " " + Age.ToString().PadRight(25);
         }
     }
 }

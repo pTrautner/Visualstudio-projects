@@ -85,11 +85,11 @@ public void setMyProperty(string value)
             {
                 Console.WriteLine($"enter withdraw amount");
                 string withdrawamountstring = Console.ReadLine();
-                if (withdrawamountstring.Contains('.'))
+                /*if (withdrawamountstring.Contains('.'))
                 {
                     Console.WriteLine("Your input contained dots [.] Please use comma to divide digits after the decimal!");
                     continue;
-                }
+                }*/
                 decimal withdrawamount = Convert.ToDecimal(withdrawamountstring);
                 //check ob genug am konto ist
                 if (withdrawamount > Kontostand)
