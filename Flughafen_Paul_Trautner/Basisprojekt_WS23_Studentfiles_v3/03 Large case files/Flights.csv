@@ -1,0 +1,11 @@
+flightNumber;departureTime;soldTickets;destination;latitude;longitude
+MBI23;435;186;London;51.47;0.44
+II234;915;35;Amsterdam;52.30;4.78
+MBI24;725;287;Istanbul;41.01;28.97
+II23;1065;435;Tokio;35.55;139.79
+II24;575;273;Miami;25.79;-80.29
+MBI2;475;278;Los Angeles;33.95;-118.40
+II4;945;62;New York;40.65;-73.78
+MBI3;737;243;Seoul;37.55;126.81
+II3;1165;416;Melbourne;-37,67;144,85
+II2;575;173;Johannesburg;-26.13;28.23

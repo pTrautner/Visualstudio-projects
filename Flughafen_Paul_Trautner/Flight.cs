@@ -49,6 +49,10 @@ namespace Flughafen_Paul_Trautner
         public FlightStatus FlightStatus { get; set; }
         public bool WalkAround { get; set; }
         public int WalkAroundTime { get; set; }
+        public void AssignAircraft(PassengerAircraft passengerAircraft)
+        {
+            Aircraft = passengerAircraft;
+        }
         public List<Crew> AssignCrewToFlight(List<Crew> allCrew)
         {
             int pilotNeeded;
@@ -131,11 +135,11 @@ namespace Flughafen_Paul_Trautner
                                 }
                                 break;
                             case "flightattendant":
-                                if (pilotNeeded > 0)
+                                if (flightAttendantsNeeded > 0)
                                 {
                                     crew.Add(crewMember);
                                     crewMember.Assigned = true;
-                                    pilotNeeded--;
+                                    flightAttendantsNeeded--;
                                 }
                                 break;
                             default:
@@ -190,15 +194,16 @@ namespace Flughafen_Paul_Trautner
         }
         public PassengerAircraft CheckAvailableAircraft(List<PassengerAircraft> aircraftList)
         {
-            aircraftList.Sort((a,b) => a.CompareTo(b)); //Sorts max passenger from low to high
-            for (int i = 0; i < aircraftList.Count; i++) //starting with lowest capacity:
+            aircraftList.Sort((a,b) => a.CompareTo(b));
+            aircraftList.Reverse();
+            for (int i = 0; i < aircraftList.Count; i++) 
             {
-                if (SoldTickets <= aircraftList[i].MaxPassengers) //do nothing until hitting aircraft with more or equal to needed capacity
+                if (SoldTickets <= aircraftList[i].MaxPassengers) 
                 {
-                    return aircraftList[i]; //return aircraft in current index
+                    return aircraftList[i]; 
                 }
             }
-            return aircraftList.Last(); //finnaly return aircraft with largest cap, regardless of sufficient space
+            return aircraftList.Last(); 
         }
         public void CheckBriefing()//////////////
         {
@@ -207,14 +212,7 @@ namespace Flughafen_Paul_Trautner
                 FlightStatus = FlightStatus.Preparing;
             }
         }
-        public void CheckWalkAround() ///////////////
-        {
-            if (WalkAroundTime <= 25)
-            {
-                FlightStatus = FlightStatus.Preparing;
-            }
-        }
-        public int CompareTo(Flight other) //returns 1 if other time is larger
+        public int CompareTo(Flight other) //returns 1 if other time is larger?
         {
             return other.DepartureTime.CompareTo(DepartureTime);
         }
@@ -223,7 +221,51 @@ namespace Flughafen_Paul_Trautner
             double distance = CalcDistance(latitude, longitude);
             Aircraft.SetFuelCapacity(distance);
             CheckBriefing();
-
+            WalkAround = true;
+        }
+        public void PrepareFlight()
+        {
+            if (WalkAround == true)
+            {
+                FlightStatus = FlightStatus.Boarding;
+            }
+        }
+        public void GetClearance()
+        {
+            if (AddLuggage && BoardPassengers)
+            {
+                Clearance = true;
+            }
+        }
+        public int GetWalkAroundTime()
+        {
+            if (Aircraft.Type == "jumbojet")
+            {
+                return 15;
+            }
+            else if (Aircraft.Type == "jet")
+            {
+                return 10;
+            }
+            else if (Aircraft.Type == "propeller")
+            {
+                return 5;
+            }
+            else return 0;
+        }
+        public double CalcFlightTime(double distance)
+        {
+            return 60 * (distance / (Aircraft.MaxSpeed * 0.8));
+        }
+        public double CalcFuelNeeded(double distance)
+        {
+            double flightTime = CalcFlightTime(distance) / 60;
+            return (flightTime + 2.5) * Aircraft.CalcFuelConsumption(flightTime);
+        }
+        static string CalcTimetoClock(int time)
+        {
+            TimeSpan result = TimeSpan.FromMinutes(time);
+            return result.ToString("hh':'mm");
         }
     }
     

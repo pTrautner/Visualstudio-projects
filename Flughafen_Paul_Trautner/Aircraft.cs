@@ -13,28 +13,34 @@ public abstract class Aircraft
 {
     public Aircraft(int fuelCapacity, int maxSpeed, string model, string type)
     {
-        this.Type = type;
-        this.Model = model;
-        this.FuelCapacity = fuelCapacity;
-        this.MaxSpeed = maxSpeed;
+        Type = type;
+        Model = model;
+        FuelCapacity = fuelCapacity;
+        MaxSpeed = maxSpeed;
 
-        switch (type.ToLower()) //maybe use if instead of switch
+        if (type == "jumbojet")
         {
-            case "jumbojet":
-                this.FuelConsumption = 16000;
-                this.MaxWeight = 380000;
-                this.AircraftWeight = 185000;
-                break;
-            case "jet":
-                this.FuelConsumption = 7500;
-                this.MaxWeight = 250000;
-                this.AircraftWeight = 110000;
-                break;
-            case "propeller":
-                this.FuelConsumption = 150;
-                this.MaxWeight = 23000;
-                this.AircraftWeight = 6500;
-                break;
+            FuelConsumption = 16000;
+            MaxWeight = 380000;
+            AircraftWeight = 185000;
+        }
+        else if (type == "jet")
+        {
+            FuelConsumption = 7500;
+            MaxWeight = 250000;
+            AircraftWeight = 110000;
+        }
+        else if (type == "propeller")
+        {
+            FuelConsumption = 150;
+            MaxWeight = 23000;
+            AircraftWeight = 6500;
+        }
+        else
+        {
+            FuelConsumption = 0;
+            MaxWeight = 0;
+            AircraftWeight = 0;
         }
     }
     public double AircraftWeight { get; set; }
@@ -47,7 +53,6 @@ public abstract class Aircraft
     public int MaxWeight { get; set; }
     public string Model { get; set; }
     public string Type { get; set; }
-    //public int MaxPassengers { get; set; }
 
     public abstract double CalcFuelConsumption(double flightTimeInH);
 
@@ -57,12 +62,12 @@ class CargoAircraft : Aircraft
 {
     public CargoAircraft(int fuelCapacity, int maxSpeed, string model, string type) : base(fuelCapacity, maxSpeed, model, type)
     {
-        CurrentWeight = AircraftWeight + LoadedWeight; //not sure if base. and this. shit is correct
+        CurrentWeight = AircraftWeight + LoadedWeight;
     }
     public double CurrentWeight { get; set; }
     public override double CalcFuelConsumption(double flightTimeInH)
     {
-        return FuelConsumption - (200 * flightTimeInH); //Maybe this gets declared or some shit later
+        return FuelConsumption - (200 * flightTimeInH); 
     }
     public override void UpdateWeight(double addedWeight)
     {
@@ -97,7 +102,7 @@ public class PassengerAircraft : Aircraft
     {
         CurrentWeight += addedWeight;
     }
-    public void AddLuggage(List<Luggage> luggagesList)  //IN PROGRESS
+    public void AddLuggage(List<Luggage> luggagesList) 
     {
         foreach (Luggage luggage in luggagesList)
         {
@@ -119,7 +124,7 @@ public class PassengerAircraft : Aircraft
     {
         Console.WriteLine($"Walkaround on Aircraft {this.Model} is complete");
     }
-    public int CompareTo(PassengerAircraft other) //sortiert geringere maximalzahl nach vorne
+    public int CompareTo(PassengerAircraft other) 
     {
         return other.MaxPassengers.CompareTo(MaxPassengers);
     }

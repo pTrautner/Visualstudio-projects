@@ -30,22 +30,23 @@ namespace PTperson
     }
     public class Crew : Person
     {
-        public Crew(int age, string name, int skill, string role, bool assigned) : base(age, name) //maybe use if instead of switch
+        public Crew(int age, string name, string role) : base(age, name) //maybe use if instead of switch
         {
             this.Role = role;
             this.Assigned = false;
             switch (role.ToLower())
             {
-                case "pilot": 
-                    this.Skill = 1; 
+                case "pilot":
+                    this.Skill = 1;
                     break;
-                case "fo": 
-                    this.Skill = 2; 
+                case "fo":
+                    this.Skill = 2;
                     break;
-                case "flightattendant": 
-                    this.Skill = 3; 
+                case "flightattendant":
+                    this.Skill = 3;
                     break;
-                default: this.Skill = 0; 
+                default:
+                    this.Skill = 0;
                     break;
             }
 
