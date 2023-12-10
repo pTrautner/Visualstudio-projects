@@ -126,12 +126,12 @@ namespace Flughafen_Paul_Trautner
                                     pilotNeeded--;
                                 }
                                 break;
-                            case "fO":
+                            case "FO":
                                 if (fONeeded > 0)
                                 {
                                     crew.Add(crewMember);
                                     crewMember.Assigned = true;
-                                    pilotNeeded--;
+                                    fONeeded--;
                                 }
                                 break;
                             case "flightattendant":
@@ -174,7 +174,7 @@ namespace Flughafen_Paul_Trautner
 
         public double CalcDistance(double latitude, double longitude)
         {
-            int r = 6371;
+            double r = 6371;
 
             double lat1 = DegreesToRadians(latitude);
             double long1 = DegreesToRadians(longitude);
@@ -205,14 +205,14 @@ namespace Flughafen_Paul_Trautner
             }
             return aircraftList.Last(); 
         }
-        public void CheckBriefing()//////////////
+        public void CheckBriefing()
         {
             if (BriefingTime <= 25)
             {
                 FlightStatus = FlightStatus.Preparing;
             }
         }
-        public int CompareTo(Flight other) //returns 1 if other time is larger?
+        public int CompareTo(Flight other) 
         {
             return other.DepartureTime.CompareTo(DepartureTime);
         }

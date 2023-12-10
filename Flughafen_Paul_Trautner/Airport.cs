@@ -183,8 +183,9 @@ namespace Flughafen_Paul_Trautner
                     var departureTime = Int32.Parse(values[1]);
                     var soldTickets = Int32.Parse(values[2]);
                     var destination = values[3];
-                    var latitude = Double.Parse(values[4]);
-                    var longitude = Double.Parse(values[5]);
+                    var latitude = Double.Parse(values[4].Replace('.', ','));
+                    Console.WriteLine(latitude);
+                    var longitude = Double.Parse(values[5].Replace('.', ','));
                     Flight flight = new Flight(flightNumber, departureTime, soldTickets, destination, latitude, longitude);
                     flights.Add(flight);
                 }
@@ -243,7 +244,7 @@ namespace Flughafen_Paul_Trautner
                     var flightNumber = values[2];
                     var seat = values[3];
                     var ticketClass = values[4];
-                    var luggageWeight = Double.Parse(values[5]);
+                    var luggageWeight = Double.Parse(values[5].Replace('.', ','));
                     Ticket ticket = new Ticket(flightNumber, seat, ticketClass);
                     Luggage luggage = new Luggage(name, flightNumber, luggageWeight);
                     Passenger passenger = new Passenger(age, name, ticket, luggage);
@@ -252,7 +253,7 @@ namespace Flughafen_Paul_Trautner
             }
             return passengers;
         }
-        private void SortAircraftsBySeats()
+        private void SortAircraftsBySeats() 
         {
             Aircrafts.Sort((a, b) => a.MaxPassengers.CompareTo(b.MaxPassengers));
             Aircrafts.Reverse();
